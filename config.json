@@ -21,7 +21,7 @@
     "1262750919905247233": {
       "ticketChannelId": "1264170706632179804",
       "adminRoleId": "1264100290500497438",
-      "status": true
+      "status": false
     }
   },
   "voiceChannelSetup": {
@@ -29,7 +29,7 @@
       "mainVoiceChannelId": "1264170945136955393",
       "adminRoleId": "1264100290500497438",
       "managerChannelId": "1264170886043537419",
-      "status": true
+      "status": false
     }
   },
  "music": {
@@ -44,7 +44,7 @@
   "autorole": {
     "1262750919905247233": {
       "roleId": "1264100290500497438",
-      "status": true
+      "status": false
     }
   }
 }
