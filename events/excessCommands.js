@@ -19,8 +19,6 @@ module.exports = {
         let command;
         if (fs.existsSync(path.join(__dirname, '..', 'excesscommands', 'hentai', `${commandName}.js`))) {
             command = require(path.join(__dirname, '..', 'excesscommands', 'hentai', `${commandName}.js`));
-        } else if (fs.existsSync(path.join(__dirname, '..', 'excesscommands', 'anime', `${commandName}.js`))) {
-            command = require(path.join(__dirname, '..', 'excesscommands', 'anime', `${commandName}.js`));
         } else if (fs.existsSync(path.join(__dirname, '..', 'excesscommands', 'music', `${commandName}.js`))) {
             command = require(path.join(__dirname, '..', 'excesscommands', 'music', `${commandName}.js`));
         } else if (fs.existsSync(path.join(__dirname, '..', 'excesscommands', 'troll', `${commandName}.js`))) {
