@@ -1,0 +1,50 @@
+{
+  "token": "",
+  "prefix": "!",
+  "youtubeapi": "AIzaSyAholYB1sYcBuZu5pKfB0RTmLWyPG7rN44",
+  "geniusToken" : "0CHr9jtPjR7EKraXUVv6__8ELmEwFeUwt5vYAhk-is_fGOq-10-epdMzESkMPUnf",
+  "hentai": true,
+  "spotifyClientId": "f71a3da30e254962965ca2a89d6f74b9",
+  "spotifyClientSecret": "199a619d22dd4e55a4a2c1a7a3d70e63",
+  "lavalink": {
+    "host": "lavalink.oryzen.xyz",
+    "port":  80,
+    "password": "oryzen.xyz"
+  },
+  "guilds": {
+    "1262750919905247233": {
+      "welcomeChannelId": "1264170688483430430",
+      "status": true
+    }
+  },
+  "tickets": {
+    "1262750919905247233": {
+      "ticketChannelId": "1264170706632179804",
+      "adminRoleId": "1264100290500497438",
+      "status": true
+    }
+  },
+  "voiceChannelSetup": {
+    "1262750919905247233": {
+      "mainVoiceChannelId": "1264170945136955393",
+      "adminRoleId": "1264100290500497438",
+      "managerChannelId": "1264170886043537419",
+      "status": true
+    }
+  },
+ "music": {
+    "status": true,
+    "lavalink": {
+      "host": "lava-v3.ajieblogs.eu.org",
+      "port": 80,
+      "password": "https://dsc.gg/ajidevserver",
+      "secure": false
+    }
+  },
+  "autorole": {
+    "1262750919905247233": {
+      "roleId": "1264100290500497438",
+      "status": true
+    }
+  }
+}
