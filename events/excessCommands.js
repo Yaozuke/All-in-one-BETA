@@ -47,7 +47,7 @@ module.exports = {
 };
 
 function logCommandCounts() {
-    const folders = ['hentai', 'anime', 'music','troll', 'other'];
+    const folders = ['hentai', 'utility', 'music','troll', 'other'];
     const basePath = path.join(__dirname, '..', 'excesscommands');
     let totalCommands = 0;
 
