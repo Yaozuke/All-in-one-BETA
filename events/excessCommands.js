@@ -25,6 +25,8 @@ module.exports = {
             command = require(path.join(__dirname, '..', 'excesscommands', 'troll', `${commandName}.js`));
         }else if (fs.existsSync(path.join(__dirname, '..', 'excesscommands', 'other', `${commandName}.js`))) {
             command = require(path.join(__dirname, '..', 'excesscommands', 'other', `${commandName}.js`));
+        }else if (fs.existsSync(path.join(__dirname, '..', 'excesscommands', 'utility', `${commandName}.js`))) {
+            command = require(path.join(__dirname, '..', 'excesscommands', 'utility', `${commandName}.js`));
         }
 
         if (!command) return;
