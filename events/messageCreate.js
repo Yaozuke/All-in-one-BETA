@@ -5,9 +5,7 @@ const { EmbedBuilder } = require('discord.js');
 module.exports = {
     name: 'messageCreate',
     async execute(message, client) {
-        if (!shiva.isServerOnline()) {
-            console.log('Server is offline.');
-        }
+        
 
         if (!message.content.startsWith(prefix) || message.author.bot) return;
 
