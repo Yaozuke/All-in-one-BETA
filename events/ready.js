@@ -7,7 +7,7 @@ module.exports = {
         setTimeout(() => {
             console.log('\x1b[32m%s\x1b[0m', `| 🎯 Activity successfully set!`);
             client.user.setPresence({
-                activities: [{ name: `GlaceYT`, type: ActivityType.Streaming }],
+                activities: [{ name: `@yaozuke`, type: ActivityType.Streaming }],
                 status: 'idle',
             });
         }, 2000);
